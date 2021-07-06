@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--W3'S CSS CDN-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!--W3'S CSS CDN BACKUP-->
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<!--GOOGLE FONTS-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<!--MY CSS-->
+<link rel="stylesheet" href="img.css">
+	
+	
+	
+	<!--W3.CSS STYLES-->
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+@font-face {font-family:whateverItTakes; src: url( "fonts/whatever it takes bold.ttf");}	
+</style><!--END W3.CSS STYLES-->
+	
+       <!--START PAGE-->	
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Nav Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="w3-padding-64 w3-center"><b>Reginald<br>Dunlap</b></h3>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+	<!--ABOUT ME-->
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+	<!--TECHNICAL SKILLS-->
+  <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button">TECHNICAL SKILLS</a>
+	<!--GOALS-->
+  <a href="#goals"  onclick="w3_close()" class="w3-bar-item w3-button">MY GOALS</a>
+	<!--COURSES-->
+  <a href="#Courses"  onclick="w3_close()" class="w3-bar-item w3-button">MY COURSES</a>
+	
+	<!--CONTACT-->
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+	
+	<!--PROSPECTIVE EMPLOYMENT-->
+  <a href="CAreer/employment.html"  onclick="w3_close()" class=" w3-button w3-bar-item  ">PROSPECTIVE EMPLOYMENT</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Reginald B. Dunlap</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+<!-- Push down content on small screens --> 
+<div class="w3-hide-large" style="margin-top:83px"></div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+<span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+  <img id="img01" class="w3-image">
+  <p id="caption"></p>
+</div>
+</div>
+
+<!-- About section -->
+<div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+
+<a href="https://www.montgomerycollege.edu/"><img src="img/images (2).png" alt="mc logo" height="40px" width="45px" style="margin-bottom: 20px;"></a>
+
+<h4 ><b>About Me</b></h4>
+<img src= "img/download.png" alt="Me" class="w3-image w3-padding-32" width="300" height="300" >
+<br>
+<div class="w3-content w3-justify" style="max-width:600px">
+<h4></h4>
+<h3>Hi, My name is Reginald, But you can just call me Reggie.<br><br>
+
+I love sports, music, programming, building websites, and playing video games with my friends.<br><br>
+
+After MC College I would love to be a Web Developer For a Major Company Such as Apple.<br><br>
+
+MC College Has provided me with proper teachings and a skill set necessary to be a Respnsive Web Developer.</h3>
+<p>mail: rdunlap9@montgomerycollege.edu </p>
+<p>tel: 301-204-0530</p>
+	
+
+	
+<hr class="w3-opacity" style="margin-top: 50px;"><!--horizontal line-->
+<!-- End About section -->
+		
+		
+<!-- TECHINCAL SKILL'S SECTION!-->
+<div id="#skills" style="padding-top: 50px;">
+<h4 class="w3-padding-16" id="skills"><b>Technical Skills</b></h4>
+<p class="w3-wide"><b>HTML</b></p>
+<div class="w3-white">
+<div class="w3-container w3-padding-small w3-center w3-grey" style="width:98%">90%</div>
+</div>
+
+<p class="w3-wide"><b>CSS3</b></p>
+<div class="w3-white">
+<div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">89%</div>
+</div>
+	
+<p class="w3-wide"><b>JS</b></p>
+<div class="w3-white">
+<div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">80%</div>
+</div>
+	
+<p class="w3-wide"><b>RWD</b></p>
+<div class="w3-white">
+<div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">89%</div>
+</div>
+	
+<p class="w3-wide"><b>JSON</b></p>
+<div class="w3-white">
+<div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">89%</div>
+</div>
+	
+<p class="w3-wide"><b>XML</b></p>
+<div class="w3-white">
+<div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">89%</div>
+</div>
+	
+<p class="w3-wide"><b>JQUERY</b></p>
+<div class="w3-white">
+<div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">80%</div>
+</div>
+	
+<p class="w3-wide"><b>AJAX</b></p>
+ <div class="w3-white">
+  <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">83%</div>
+ </div>	
+</div><!-- END TECHINCAL SKILL'S SECTION!-->		  
+     
+
+	
+	<!--GOALS-->
+<div class="my_goals" id="goals" style="padding-top: 50px;">
+		<hr style="padding-bottom: 50px;">
+<h4><b>My Goals</b></h4>	
+<ul>
+ <li>Continue to keep updated with newest technologies.</li>
+ <li>Fine-tune my Javascripting ablities.</li>
+ <li>Craft quality clean code.</li>
+ <li>Continue to build projects.</li>
+ <li>Continue to learn.</li>
+</ul>
+	<a href="https://www.mcraptors.com/landing/index"><img style="padding-left: 190px; padding-top: 50px" src="img/images (1).png" alt="mc raptor"></a>
+</div><!--END-->
+	
+<!-- MY COURSE'S -->
+<!-- <div id="Courses" style="padding-top: 50px;" class="text-center fix-img">
+	<hr style="padding-bottom:50px;">
+<h4><b> My Courses </b></h4>
+	
+<div class="item">
+<a href="http://remote.itiwebcert.com/2019/Fall/CSS3/student4/index.html">
+<img src= "img/33-128.png" class="float-img" height="100" width="50" ><figcaption><button class="button"><b>
+CSS3</b></button><br><h4><b>Learning Outcome</b></h4><b>The goal of CSS is to provide Web developers with a standard way to define, apply, and manage sets of style characteristics. I provide these capabilities through a CSS box model based on a hierarchical scope of effect.</b></figcaption></a>
+</div>
+	
+<div class="item">	
+<a href="http://remote.itiwebcert.com/2020/Spring/Portfolio/Dunlap-R/HTML5-CSS3/index.html">
+<img src= "img/html-128.png" class="float-img" height="100" width="50"><figcaption>
+	<button class="button"><b>HTML5</b></button><br><h4><b>Learning Outcome</b></h4><b>The HTML5 standard has a much broader goal to describe the content when it's loaded in your browser. HTML5 establishes a single syntax for interacting with all the elements that Web page has loaded into your computer's memory.</b></figcaption></a>
+</div>	
+
+<div class="item">	
+<a href="http://remote.itiwebcert.com/2019/Fall/JavaScript/student5/index.html">
+<img src="img/275-128.png" class="float-img" height="100" width="50">
+<figcaption><button class="button"><b>JAVASCRIPT</b></button><br><h4><b>Learning Outcome</b></h4><b>The goal of javascript was designed to make web development easier and more attractive. In most cases, I use JavaScript all the time to create responsive, subtle, yet interactive elements for web pages, enhancing the user experience.</b></figcaption></a>
+</div>
+	
+<br>
+	
+<div class="item">
+<a href="http://remote.itiwebcert.com/2019/Fall/XML/student3/ch12-1/12.1/flickr/index.html" class="float.img">
+<img src= "img/ajax-128.png" class="float.img">
+<figcaption>
+<button class="button"><b>AJAX</b></button><br><h4><b>Learning Outcome</b></h4><b>The goal of ajax is to update a web page without reloading the page. I mostly use ajax to request data from a server after the page has loaded.</b></figcaption></a>
+</div>
+	
+<div class="item">	
+<a href="http://remote.itiwebcert.com/2019/Fall/jQuery/student7/index.html ">
+<img src="img/kden-document-code-128 (1).png" class="float.img">
+<figcaption>
+<button class="button"><b>JQuery</b></button><br><h4><b>Learning Outcome</b></h4><b>The goal for jQuery is to take common, repetitive tasks, stripping out all the unnecessary markup, making programming easier, leaving functions short, smart and understandable.</b></figcaption></a>
+</div>
+
+	
+<div class="item">	
+<a href="http://remote.itiwebcert.com/2019/Fall/XML/student3/index.html">
+<img src= "img/xml-128.png" class="float.img"><figcaption>
+<button class="button"><b>XML</b></button><br><h4><b>Learning Outcome</b></h4><b>The design goals of XML emphasize simplicity, generality, and usability across the Internet. It is a textual data format with strong support via Unicode for different human languages.</b></figcaption></a>
+</div>
+	
+	<br>
+	
+<div class="item">	
+<a href="http://remote.itiwebcert.com/2019/Fall/XML/student3/index.html">
+<img src= "img/File_Document_Doc_Folder_JSON-128.png" class="float.img"><figcaption>
+<button class="button"><b>JSON</b></button><br><h4><b>Learning Outcome</b></h4><b>Json's goal is structured data interchange. It serves this purpose by directly representing objects, arrays, numbers, strings, and booleans. I use json for hadling large amounts of data.</b></figcaption></a>
+</div>
+	
+<div class="item">
+<a href=" http://remote.itiwebcert.com/2019/Fall/RWD/student3/index.html">
+<img src= "img/PhoneCode-128.png" class="float.img">
+<figcaption><button class="button"><b>RWD</b></button><br><h4><b>Learning Outcome</b></h4><b>The goal of responsive web design is to build web pages that detect the visitor's screen size and orientation and change the layout accordingly. I use RWD to solve problems caused by the proliferation of new types of mobile devices.</b></figcaption></a>
+ </div>
+	
+<div class="item">
+<a href="http://remote.itiwebcert.com/2020/Spring/Capstone/Dunlap-R/index.html">
+<img src= "img/ezgif-4-d2db299776e0.png" class="float.img">
+<figcaption><button class="button"><b>Capstone</b></button><br><h4><b>Learning Outcome</b></h4><b>This is my capstone course. This demontrate's all my work and everything i've learned at MC College.</b></figcaption></a>
+ </div>		
+</div> -->
+	
+	
+	
+	<!--CONTACT-->
+<div class="w3-container w3-dark-grey w3-center w3-text-light-grey">
+	
+<div id="contact" >
+	<hr class="line">
+<h4  class="w3-center"><b>Contact Me</b></h4>
+<p>Do you want me to Build Your Custom Website? Fill out the form and fill me in with the details  :) I love meeting new people!</p>
+	
+<form action="/action_page.php" target="_blank"><!-- <= FORM-->
+<div class="w3-section">
+  <label>Name</label>
+  <input class="w3-input w3-border" type="text" name="Name" required>
+</div>
+	
+<div class="w3-section">
+  <label>Email</label>
+  <input class="w3-input w3-border" type="text" name="Email" required>
+</div>
+	
+<div class="w3-section">
+  <label>Message</label>
+  <input class="w3-input w3-border" type="text" name="Message" required>
+</div>
+	
+<button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+   </form><!-- <= END FORM-->
+   </div><!--END CONTACT-->		
+  </div>
+ </div>	
+</div>
+	
+	<!-- Footer -->
+<div class="w3-black w3-center w3-padding-24" style="margin-left: 0;">Powered by &nbsp<a  href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity"> w3.css</a>
+ </div><!-- End FOOTER -->
+</div><!-- END PAGE -->	
+
+
+	<!--JAVASCRIPT-->
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+</body>
+</html>
