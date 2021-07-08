@@ -109,3 +109,12 @@ font-size: 135%;
 font-family: whateverItTakes;
 color:#010101;
 }
+
+.item li {
+  list-style: none;
+}
+
+/* .item button {
+  margin-top: 10px;
+} */
+
